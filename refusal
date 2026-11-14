@@ -1,0 +1,3 @@
+#!/bin/sh
+# refusal: executable stub; runs the bundled module with whatever python3 is on PATH.
+exec python3 "$(dirname "$0")/refusal_ledger.py" "$@"
